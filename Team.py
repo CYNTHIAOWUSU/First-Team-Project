@@ -8,6 +8,7 @@ class Team:
         pass
 
     def reverse_input(self):
+        print self.word[::-1]
         """ Changes self.word to its reverse.  For example if
         self.word is 'apples', then it becomes 'selppa'."""
         # TODO by person 1

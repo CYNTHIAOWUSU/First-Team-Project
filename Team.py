@@ -1,6 +1,7 @@
 class Team:
 
     def __init__(self):
+	self.word=raw_input("enter a noun")
         """ Asks for the user input for a noun and stores the noun in
         the instance variable self.word.  Remember a noun is a person,
         place, or thing. """
@@ -14,6 +15,7 @@ class Team:
         pass
     
     def print_in_sentence(self):
+  print"Today i dreamt of %s while walking on the beach"%self.word
         """ Insert self.word in the sentence 'Today I dreamt of
         <self.word> while walking on the beach.' replacing <self.word>
         for the noun that was chosen during class construction. """
